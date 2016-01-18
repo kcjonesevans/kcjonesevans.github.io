@@ -107,7 +107,7 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/python.svg"
-    date: "Septemmber 2010"
+    date: "September 2010"
     description: "First Coding Job- Part-time Web Developer"
   - image: "/img/timeline/graduation.png"
     date: "June 2011"
