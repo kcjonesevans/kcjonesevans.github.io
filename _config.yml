@@ -58,8 +58,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "SCIENCE."
-  - text: "It works, bitches."
+  - text: "Hello."
+  - text: "Let's do some programming."
 
 me-img: "/img/me-icon.jpg"
 
@@ -119,7 +119,7 @@ events:
     date: "August 2012"
     description: "Honeymoon in Jackson Hole, Wyoming"
   - image: "/img/timeline/jquery.svg"
-    date: "Septemmber 2013"
+    date: "September 2013"
     description: "Riverside Research Web Developer"
   - image: "/img/timeline/washingtondc.png"
     date: "December 2013"
