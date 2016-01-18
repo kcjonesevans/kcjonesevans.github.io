@@ -1,0 +1,207 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "http://kcjonesevans.github.io/"
+author_email: kcjonesevans@gmail.com
+
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /kcje-site/
+
+# Google tracking id to track your visitors
+
+#google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+#force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "K.C. Jones-Evans"
+title: "{ K.C. Jones-Evans }"
+description: "Blog and website of K.C. Jones-Evans, blogging mainly for tech. Opinions expressed are mine."
+keywords: "jones-evans, jones, evans, kc, k.c., gdi, programming"
+favicon: "/img/black-cat-icon.ico"
+404-img: "/img/labtocat.png"
+
+################
+# Header layout #
+################
+
+black-favicon: #"/img/black-cat-icon.ico"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "SCIENCE."
+  - text: "It works, bitches."
+
+me-img: "/img/me-icon.jpg"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/favicon-32x32.png"
+icon-48p: "/img/web-app/favicon-32x32.png"
+icon-72p: "/img/web-app/favicon-32x32.png"
+icon-96p: "/img/web-app/favicon-96x96.png"
+icon-144p: "/img/web-app/android-icon-144x144.png"
+icon-192p: "/img/web-app/android-icon-192x192.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/python.svg"
+    date: "Septemmber 2010"
+    description: "First Coding Job- Part-time Web Developer"
+  - image: "/img/timeline/graduation.png"
+    date: "June 2011"
+    description: "Graduated WSU with BS in Computer Science"
+  - image: "/img/timeline/marriage.png"
+    date: "August 2012"
+    description: "Married Kevin!"
+  - image: "/img/timeline/wyoming.png"
+    date: "August 2012"
+    description: "Honeymoon in Jackson Hole, Wyoming"
+  - image: "/img/timeline/jquery.svg"
+    date: "Septemmber 2013"
+    description: "Riverside Research Web Developer"
+  - image: "/img/timeline/washingtondc.png"
+    date: "December 2013"
+    description: "Adventures In Washington D.C."
+  - image: "/img/timeline/sanfran.png"
+    date: "February 2014"
+    description: "Exploring SanFran and the PCH"
+  - image: "/img/timeline/seattle.png"
+    date: "August 2014"
+    description: "Seattle!"
+  - image: "/img/timeline/gdi-dayton-logo.png"
+    date: "July 2015"
+    description: "Girl Develop It Dayton Chapter Starts"
+  - image: "/img/timeline/tokyo.png"
+    date: "October 2015"
+    description: "Overseas to JAPAN!!!"
+  - image: "/img/timeline/follybeach.png"
+    date: "December 2015"
+    description: "Southern Christmas in Charleston, SC"
+  - image: "/img/timeline/ruby.svg"
+    date: "February 2016"
+    description: "Teaching Ruby!"
+  
+
+# First image of the Timeline
+
+timeline-img: "img/black-cat-icon.ico"
+
+###########
+# Contact #
+###########
+
+email: "kcjonesevans@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://www.facebook.com/jones.katherine"
+  - title: "twitter"
+    url: "https://twitter.com/kcjonesevans"
+  - title: "github"
+    url: "https://github.com/kcjonesevans"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/kcjonesevans"
+  - title: "instagram"
+    url: "https://www.instagram.com/kcjonesevans/"
+  - title: "google-plus"
+    url: "https://plus.google.com/u/0/118005383095645823729/posts/p/pub"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
