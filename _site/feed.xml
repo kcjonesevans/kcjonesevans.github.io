@@ -7,6 +7,32 @@
 		<atom:link href="http://kcjonesevans.github.io//kcje-site//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Last Week of Work</title>
+				
+				
+					<description>&lt;p&gt;This coming week is my last week of work at my current job. I am leaving behind a work wife and many many friends, but most importantly I’m leaving a job that took me nowhere.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 14 Feb 2016 00:00:00 -0500</pubDate>
+				<link>http://kcjonesevans.github.io//kcje-site//work/2016/02/14/last-week-of-work.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io//kcje-site//work/2016/02/14/last-week-of-work.html</guid>
+			</item>
+		
+			<item>
+				<title>My First Class</title>
+				
+				
+					<description>&lt;p&gt;Today I am preparing to teach Introduction into Programming with Ruby, aka Intro to Ruby, for the &lt;a target=&quot;_blank&quot; href=&quot;www.gdidayton.com&quot;&gt;GDI Dayton Chapter&lt;/a&gt;. I’m beyond excited and nervous.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 06 Feb 2016 00:00:00 -0500</pubDate>
+				<link>http://kcjonesevans.github.io//kcje-site//gdi/2016/02/06/my-first-class.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io//kcje-site//gdi/2016/02/06/my-first-class.html</guid>
+			</item>
+		
+			<item>
 				<title>Hello World</title>
 				
 				

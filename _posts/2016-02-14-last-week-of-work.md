@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Title
+title: Last Week of Work
 category: work
 tags: [ 'work' ]
 ---
