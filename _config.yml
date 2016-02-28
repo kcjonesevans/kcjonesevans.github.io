@@ -15,6 +15,7 @@ author_email: kcjonesevans@gmail.com
 # NB! Without this *nothing* will work, because it's used in every path :)
 
 #baseurl: /kcje-site/
+baseurl: 
 
 # Google tracking id to track your visitors
 
