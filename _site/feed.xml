@@ -3,8 +3,8 @@
 	<channel>
 		<title>{ K.C. Jones-Evans }</title>
 		<description>Blog and website of K.C. Jones-Evans, blogging mainly for tech. Opinions expressed are mine.</description>
-		<link>http://kcjonesevans.github.io/</link>
-		<atom:link href="http://kcjonesevans.github.io//feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://kcjonesevans.github.io</link>
+		<atom:link href="http://kcjonesevans.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Last Week of Work</title>
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Sun, 14 Feb 2016 00:00:00 -0500</pubDate>
-				<link>http://kcjonesevans.github.io//work/2016/02/14/last-week-of-work.html</link>
-				<guid isPermaLink="true">http://kcjonesevans.github.io//work/2016/02/14/last-week-of-work.html</guid>
+				<link>http://kcjonesevans.github.io/work/2016/02/14/last-week-of-work.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io/work/2016/02/14/last-week-of-work.html</guid>
 			</item>
 		
 			<item>
@@ -28,8 +28,8 @@
 </description>
 				
 				<pubDate>Sun, 14 Feb 2016 00:00:00 -0500</pubDate>
-				<link>http://kcjonesevans.github.io//fun-things/2016/02/14/code-with-love.html</link>
-				<guid isPermaLink="true">http://kcjonesevans.github.io//fun-things/2016/02/14/code-with-love.html</guid>
+				<link>http://kcjonesevans.github.io/fun-things/2016/02/14/code-with-love.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io/fun-things/2016/02/14/code-with-love.html</guid>
 			</item>
 		
 			<item>
@@ -41,8 +41,8 @@
 </description>
 				
 				<pubDate>Sat, 06 Feb 2016 00:00:00 -0500</pubDate>
-				<link>http://kcjonesevans.github.io//gdi/2016/02/06/my-first-class.html</link>
-				<guid isPermaLink="true">http://kcjonesevans.github.io//gdi/2016/02/06/my-first-class.html</guid>
+				<link>http://kcjonesevans.github.io/gdi/2016/02/06/my-first-class.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io/gdi/2016/02/06/my-first-class.html</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@
 </description>
 				
 				<pubDate>Sun, 17 Jan 2016 00:00:00 -0500</pubDate>
-				<link>http://kcjonesevans.github.io//tech/2016/01/17/hello-world.html</link>
-				<guid isPermaLink="true">http://kcjonesevans.github.io//tech/2016/01/17/hello-world.html</guid>
+				<link>http://kcjonesevans.github.io/tech/2016/01/17/hello-world.html</link>
+				<guid isPermaLink="true">http://kcjonesevans.github.io/tech/2016/01/17/hello-world.html</guid>
 			</item>
 		
 	</channel>
