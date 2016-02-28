@@ -165,6 +165,15 @@ events:
 
 timeline-img: "img/black-cat-icon.ico"
 
+
+###########
+# Courses #
+###########
+courses:
+  - name: Introduction to Programming with Ruby
+    slides: "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/"
+    repo: "https://github.com/kcjonesevans/gdidayton-intro-ruby"
+
 ###########
 # Contact #
 ###########

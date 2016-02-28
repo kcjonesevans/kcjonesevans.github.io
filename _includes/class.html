@@ -7,7 +7,22 @@
 
       {{ page.content | markdownify }}
 
-      <a href='http://kcjonesevans.github.io/gdidayton-intro-ruby/index#/'>Introduction to Programming with Ruby</a>
+      {% for course in site.courses %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% capture class %}
+          {% if loopindex == 0 %}
+            timeline-inverted
+          {% endif %}
+          {% endcapture %}
+
+          <li>
+          	<h4><strong>{{course.name}}</strong</h4> <br>
+              <strong><a href="{{ course.slides }}" target="_blank">Slides</a></strong>
+              	<small> . </small>
+             <strong><a href="{{ course.repo }}" target="_blank">Repo</a></strong>
+          </li>
+        {% endfor %}
+		
 
 
 
