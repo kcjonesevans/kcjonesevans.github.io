@@ -8,10 +8,12 @@ serve
   - Builds and serves your website without generating the Disqus comments and the Google Analytics code
 
 new-post <title>
-  - Creates a new post under \_posts
+  - Creates a new post under \
+  - ./scripts/newpost <title>
 
 generate-tag
   - Generate all the tags that are used in the \_posts
+
 
 integrate-personal
   - Integrates the latest bug fixes and new features from personal-jekyll-theme repository.
