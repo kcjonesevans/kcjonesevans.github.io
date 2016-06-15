@@ -190,9 +190,10 @@ social:
 
 pages_list:
   About: 'about'
+  Contact: 'contact'
   Classes : 'class'
   Timeline: 'timeline'
-  Contact: 'contact'
+
 
 
 # Exclusion list from the generated _site
