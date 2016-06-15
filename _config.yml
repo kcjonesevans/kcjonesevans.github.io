@@ -34,7 +34,7 @@ google-tracking-id: "UA-74637360-1"
 lang: "en"
 author: "K.C. Jones-Evans"
 title: "{ K.C. Jones-Evans }"
-description: "Blog and website of K.C. Jones-Evans, blogging mainly for tech. Opinions expressed are mine."
+description: "website of K.C. Jones-Evans"
 keywords: "jones-evans, jones, evans, kc, k.c., gdi, programming"
 favicon: "/img/black-cat-icon.ico"
 404-img: "/img/labtocat.png"
@@ -79,28 +79,6 @@ icon-96p: "/img/web-app/favicon-96x96.png"
 icon-144p: "/img/web-app/android-icon-144x144.png"
 icon-192p: "/img/web-app/android-icon-192x192.png"
 
-########
-# Blog #
-########
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-
-
-syntax-highlight: True
 
 ############
 # Timeline #
@@ -159,7 +137,7 @@ events:
     date: "March 2016"
     description: "New Job"
     url: ""
-  
+
 
 # First image of the Timeline
 
@@ -213,7 +191,6 @@ social:
 pages_list:
   About: 'about'
   Classes : 'class'
-  Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
