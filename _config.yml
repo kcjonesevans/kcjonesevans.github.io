@@ -143,6 +143,71 @@ events:
 
 timeline-img: "img/black-cat-icon.ico"
 
+##########
+# Resume #
+##########
+
+experience:
+    - name: Applied Information Sicence
+      title: Software Engineer
+      time: March 2016 - Present
+      summary: Developing UIs with AngularJS, a Javascript MVW framework
+    - name: Riverside Research
+      title : Software Developer
+      time: September 2013 - February 2016
+      summary: Developing interactive dynamic web pages using Jquery, Perl, and an Oracle DB. Researching development issues, providing multiple solutions and implementing a solution in a team. Maintaining metrics and statics of an Oracle DB.
+    - name: Science Applications International Corporation
+      title: Software Engineer
+      time: September 2010 - September 2013
+      summary: Support Small Business Innovation Research (or SBIR) program and other various programs needing software design and engineering. Leading and creating a  Python/Django application that uses entity , temportal , and geospacial extraction of web based media
+    - name: Wright State University College of Engineering
+      title: Programming Assistant and Teacher's Assistant
+      time: April 2009 - October 2010
+      summary: Teaching assistant for operating systems class covering file-system usage and design, process usage and control, virtual memory, multi user systems, access control. Provide assistance to Computer Science and Engineering students in Java & C/C++ introduction and intermediate level classes with debugging and solving issues with labs and projects.
+    - name: Wright State University Collete of Math and Science
+      title: Developmental Math 095 Proctor
+      time: September 2008 - March 2010
+      summary: Taught developmental algebra and pre-algebra concepts to college students.
+    - name: The Reynolds and Reynolds Company
+      title: Web Developer Intern
+      time: Summer 2009
+      summary: Internship as a Web Developer for Reynolds and Reynold's Marketing Department.
+
+skills:
+    - name: JavaScript
+    - name: AngularJS
+    - name: NodeJS
+    - name: Ruby and Ruby on Rails
+    - name: Python and Django
+    - name: Git
+    - name: Jekyll
+    - name: HTML/CSS
+    - name: C/C++
+    - name: C#
+    - name: Visual Basic
+    - name: Java
+    - name: PostgreSQL and PostGIS
+    - name: OpenGL
+    - name: MatLab
+
+publications:
+    - title: Web-based Geospatial Information Extraction
+      publisher: Proceedings of the IEEE 2012 NAECON
+      link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6531027&queryText%3DBrian+Bacher+.PLS.+K.C.+Jones+.PLS.+Bart+Kahler
+    - title: Proceedings of the IEEE 2012 NAECON
+      publisher: Proceedings of the IEEE 2012 NAECON
+      link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6531026&queryText%3DBrian+Bacher+.PLS.+K.C.+Jones+.PLS.+Bart+Kahler
+
+education:
+    - school: Wright State Univerisy
+      degree: Bachlors of Science in Computer Science
+      time: June 2011
+
+volunteer:
+    - group: Girl Develop It Dayton Chapter
+      title: Chapter Co-Lead
+      time: August 2015 - Present
+      summary: Girl Develop It is a nonprofit organization that provides affordable programs for adult women interested in learning web and software development in a judgment-free environment.
 
 ###########
 # Courses #
@@ -193,6 +258,7 @@ social:
 
 pages_list:
   About: 'about'
+  Resume: 'resume'
   Contact: 'contact'
   Classes : 'class'
   #Timeline: 'timeline'

@@ -35,10 +35,15 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+h3, h4{
+  font-weight: lighter;
+  letter-spacing: normal;
+  margin: 10px 0 25px;
+}
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.5;
     @media(min-width:768px) {
         margin: 0 0 35px;
@@ -260,12 +265,40 @@ a {
 }
 #about{
   padding-top: 50px;
+  p {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
   .img-me{
-    margin: 5rem auto;
+    margin: 10rem auto;
   }
 }
 #contact{
+  p {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
   padding-bottom: 125px;
+}
+
+#resume{
+  .resume{
+    p {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.5em;
+    }
+    h4{
+      font-size: 14px;
+      margin: 0 0 .5rem 0;
+      text-transform: capitalize;
+      border-bottom: 1px solid $mint;
+    }
+    li{
+      list-style: none;
+
+    }
+  }
 }
 
 .btn {

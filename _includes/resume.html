@@ -1,0 +1,70 @@
+<!-- About Start -->
+
+<section id="{{ page.section-type }}" class="container content-section ">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            {{ page.content | markdownify }}
+            <div class="row">
+              <div class="col-md-4 resume">
+                <h3>Skills</h3>
+                {% for skill in site.skills %}
+                <li class="skills">{{skill.name}} </li>
+                {% endfor %}
+              </br>
+                <h3>Education</h3>
+                {% for ed in site.education %}
+                <li>
+                    <h4><strong>{{ed.school}}</strong> {{ed.degree}}</h4> <p class="time"> {{ed.time}}</p>
+
+                    <br>
+
+                </li>
+                {% endfor %}
+                <h3>Volunteer</h3>
+                {% for vol in site.volunteer %}
+                <li>
+                    <h4><strong>{{vol.group}}</strong> {{vol.title}}</h4> <p class="time"> {{vol.time}}</p>
+                    <p>
+                      {{vol.summary}}
+                    </p>
+                    <br>
+
+                </li>
+                {% endfor %}
+              </div>
+              <div class="resume col-md-8">
+                  <h3>Experience</h3>
+                  {% for ex in site.experience %}
+                  <li>
+                      <h4><strong>{{ex.name}}</strong> {{ex.title}}</h4>
+                      <p class="time"> {{ex.time}}</p>
+                      <p>
+                        {{ex.summary}}
+                      </p>
+                      <br>
+
+                  </li>
+                  {% endfor %}
+
+                  <h3>Publications</h3>
+                  {% for pub in site.publications %}
+                  <li>
+                      <h4><a href="{{pub.link}}" target="_blank"><strong> {{pub.title}}</strong> {{pub.publisher}}</a></h4>
+                      <br>
+
+                  </li>
+                  {% endfor %}
+
+
+
+
+              </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- About End -->
