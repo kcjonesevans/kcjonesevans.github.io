@@ -1,17 +1,27 @@
 // Variables
 //http://paletton.com/palette.php?uid=53i0u0kb9nK3PA07lsjeIjQjcfO
 
-$primary: #4A7272;
-$dark: #202020;
-$light: #C7D6D6;
+$gray : #817f82;
+$green : #1A3521;
+$mint : #b3e9c7;
+$silver: #DDEDFF;
+$prussian: #002a50;
 
-$navbar-text-shadow: true;
-$header-text-shadow: true;
-$header-background-color: $dark;
-$intro-text-color: $light;
-$navbar-color: $light;
-$navbar-lg-collapse-background-color: $header-background-color;
+$primary: $mint;
+$dark: $prussian;
+$light: $silver;
+
+$navbar-text-shadow: false;
+$header-text-shadow: false;
+$intro-text-shadow: true;
+$header-background-color: $prussian;
+$intro-text-color: #ffffff;
+$navbar-color: white;
+$navbar-lg-collapse-background-color: $mint;
 $navbar-lg-background: transparent;
-$navbar-sm-background-color: $navbar-lg-collapse-background-color;
+$navbar-sm-background-color: $mint;
+
+$body-color: black;
+$body-background-color: #ffffff;
 
 $social-buttons-color: $primary;

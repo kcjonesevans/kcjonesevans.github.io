@@ -45,7 +45,7 @@ favicon: "/img/black-cat-icon.ico"
 
 black-favicon: #"/img/black-cat-icon.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/coding_bw.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -62,7 +62,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Hello."
   - text: "Let's do some programming."
 
-me-img: "/img/me-icon.jpg"
+me-img: "/img/bw_profile.jpg"
 
 ################
 # Web app mode #
@@ -148,6 +148,9 @@ timeline-img: "img/black-cat-icon.ico"
 # Courses #
 ###########
 courses:
+  - name: Introduction to Programming Concepts
+    slides: "http://kcjonesevans.github.io/gdi-intro-programming-concepts/#/"
+    repo: "https://github.com/kcjonesevans/gdi-intro-programming-concepts"
   - name: Introduction to Programming with Ruby
     slides: "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/"
     repo: "https://github.com/kcjonesevans/gdidayton-intro-ruby"
@@ -192,7 +195,7 @@ pages_list:
   About: 'about'
   Contact: 'contact'
   Classes : 'class'
-  Timeline: 'timeline'
+  #Timeline: 'timeline'
 
 
 
