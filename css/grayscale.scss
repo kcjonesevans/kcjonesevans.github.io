@@ -119,13 +119,13 @@ a {
                 &:focus,
                 &:active {
                     outline: none;
-                    background-color: rgba($light, 0.3);
+                    background-color: darken($mint, 15);
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba($light, 0.3);
+                    background-color: darken($mint, 15);
                     &:hover {
                         color: $navbar-color;
                     }
