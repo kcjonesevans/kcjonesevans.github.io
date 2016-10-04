@@ -94,6 +94,7 @@ a {
     }
     .navbar-brand {
         font-weight: 700;
+        text-shadow: 0 0 2px darken($mint, 50);
         &:focus {
             outline: none;
         }
@@ -106,6 +107,7 @@ a {
     }
     .nav {
         text-align: center;
+        text-shadow: 0 0 2px darken($mint, 50);
         li {
             a {
                 -webkit-transition: background .3s ease-in-out;
@@ -114,7 +116,7 @@ a {
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: rgba($light, 0.3);
+                    background-color: rgba($light, .5);
                 }
                 &:focus,
                 &:active {
