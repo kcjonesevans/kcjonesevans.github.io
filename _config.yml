@@ -151,11 +151,11 @@ experience:
     - name: Applied Information Sicence
       title: Software Engineer
       time: March 2016 - Present
-      summary: Developing UIs with AngularJS, a Javascript MVW framework
+      summary: Developing UIs with Angular, React/Redux and Node
     - name: Riverside Research
       title : Software Developer
       time: September 2013 - February 2016
-      summary: Developing interactive dynamic web pages using Jquery, Perl, and an Oracle DB. Researching development issues, providing multiple solutions and implementing a solution in a team. Maintaining metrics and statics of an Oracle DB.
+      summary: Developed interactive dynamic web pages using Jquery, Perl, and an Oracle DB. Researched development issues, provided multiple solutions and implemented a solution in a team. Maintained metrics and statics of an Oracle DB.
     - name: Science Applications International Corporation
       title: Software Engineer
       time: September 2010 - September 2013
@@ -175,8 +175,9 @@ experience:
 
 skills:
     - name: JavaScript
-    - name: AngularJS
-    - name: NodeJS
+    - name: React and Redux
+    - name: Angular
+    - name: Node
     - name: Ruby and Ruby on Rails
     - name: Python and Django
     - name: Git
@@ -231,6 +232,8 @@ email: "kcjonesevans@gmail.com"
 ##################
 
 social:
+  - title: "envelope"
+    url: "mailto:kcjonesevans"
   - title: "facebook"
     url: "https://www.facebook.com/jones.katherine"
   - title: "twitter"
