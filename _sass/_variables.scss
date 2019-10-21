@@ -2,12 +2,12 @@
 //http://paletton.com/palette.php?uid=53i0u0kb9nK3PA07lsjeIjQjcfO
 
 $gray : #817f82;
-$green : #1A3521;
-$mint : darken(#C6EADD, 15);
+$green : #007c91;
+$mint : #006978;
 $silver: #DDEDFF;
 $prussian: #002a50;
 
-$primary: $mint;
+$primary: $green;
 $dark: $prussian;
 $light: $silver;
 
@@ -17,9 +17,9 @@ $intro-text-shadow: true;
 $header-background-color: $prussian;
 $intro-text-color: #ffffff;
 $navbar-color: white;
-$navbar-lg-collapse-background-color: $mint;
+$navbar-lg-collapse-background-color: $green;
 $navbar-lg-background: transparent;
-$navbar-sm-background-color: $mint;
+$navbar-sm-background-color: $green;
 
 $body-color: black;
 $body-background-color: #ffffff;
