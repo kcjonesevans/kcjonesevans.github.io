@@ -61,20 +61,20 @@ div {
 }
 
 a {
-    color: darken($primary,20%);;
+    color: $primary;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: $primary;
+        color: $silver;
     }
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba($light, 0.3);
+    // border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
@@ -279,6 +279,7 @@ a {
   }
 }
 #contact{
+    height: 50vh;
   p {
     font-size: 14px;
     margin-bottom: 14px;
