@@ -5,7 +5,7 @@ cover: assets/images/intro-bg.jpg
 logo: assets/images/cream_logo_transparent.png
 favicon: assets/images/favicon.ico
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://kcjonesevans.com" # the base hostname & protocol for your site
+url: "https://kcjonesevans.com/" # the base hostname & protocol for your site
 
 pagination:
 
@@ -50,10 +50,10 @@ lsi: False
 username: samanyougarg #github username
 repo: hanuman #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+relative_source: ../kcjonesevans/ #source directory
+destination: ../kcjonesevans-pages/ #destination directory
+production_url:  https://kcjonesevans.com/
+source_url:  https://github.com/kcjonesevans/kcjonesevans.github.io #source repository url
 
 exclude:
   - README.md
