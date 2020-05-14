@@ -2,7 +2,7 @@
 title: K.C. Jones-Evans
 description: Hello World!
 cover: assets/images/intro-bg.jpg
-logo: assets/images/cream_logo_transparent.png
+logo: /assets/images/cream_logo_transparent.png
 favicon: assets/images/favicon.ico
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://kcjonesevans.com/" # the base hostname & protocol for your site
