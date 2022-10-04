@@ -1,0 +1,13 @@
+---
+layout: post
+title: Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform
+date: 2021-03-22 00:00:00 +0300
+description: The client has files placed in a common folder that can be accessed by the standard File Transfer Protocol (FTP). Given the FTP server’s connection information, the client requested the files to be moved to an Amazon Web Services (AWS) S3 bucket where their analysis tools are configured to use. # Add post description (optional)
+img: aws-s3.png # Add image post (optional)
+tags: [AWS, FTP, s3, terraform, EC2, Programming, Learn] # add tag
+---
+The client has files placed in a common folder that can be accessed by the standard File Transfer Protocol (FTP). Given the FTP server’s connection information, the client requested the files to be moved to an Amazon Web Services (AWS) S3 bucket where their analysis tools are configured to use. 
+
+[https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/][https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/]
+
+[https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/]: https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/
