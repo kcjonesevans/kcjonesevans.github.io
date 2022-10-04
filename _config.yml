@@ -2,30 +2,47 @@
 title: K.C. Jones-Evans
 description: Hello World!
 cover: assets/images/intro-bg.jpg
-logo: /assets/images/cream_logo_transparent.png
+logo: assets/images/cream_logo_transparent.png
 favicon: assets/images/favicon.ico
-baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://kcjonesevans.com/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
+# url: "https://kcjonesevans.com/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
-pagination:
 
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
 
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
 
-  per_page: 5
+# Author Settings
+author: K.C. Jones-Evans # add your name
+author-img: headshot_square_small.png # add your photo
+about-author: I am a full-stack software developer focusing on front-end web app development for cloud deployment (Azure & AWS). # add description
+social-twitter: kcjonesevans# add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: kcjonesevans # add your Github handle
+social-linkedin: kcjonesevans # add your Linkedin handle
+social-email: # add your Email address
 
-# Social
-facebook: kcjonesevans
-twitter: kcjonesevans
-github:  kcjonesevans
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-#Additional Pages
-about: about
-resume: resume
-contact: contact
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+
+# # Social
+# facebook: kcjonesevans
+# twitter: kcjonesevans
+# github:  kcjonesevans
+
+# #Additional Pages
+# about: about
+# resume: resume
+# contact: contact
 
 
 permalink: /:title
@@ -33,15 +50,16 @@ permalink: /:title
 
 # Google Analytics
 analytics_id: "UA-74637360-1"
+analytics: "UA-74637360-1"
 
-# Build settings
-markdown: kramdown
+# # Build settings
+# markdown: kramdown
 
-kramdown:
-  parse_block_html: true
+# kramdown:
+#   parse_block_html: true
 
-plugins:
-  - jekyll-paginate-v2
+# plugins:
+#   - jekyll-paginate-v2
 
 
 # Settings for rake task
@@ -55,15 +73,15 @@ destination: ../kcjonesevans-pages/ #destination directory
 production_url:  https://kcjonesevans.com/
 source_url:  https://github.com/kcjonesevans/kcjonesevans.github.io #source repository url
 
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - _posts/archieve/*
+# exclude:
+#   - README.md
+#   - Rakefile
+#   - Gemfile
+#   - Gemfile.lock
+#   - changelog.md
+#   - "*.Rmd"
+#   - vendor
+#   - .travis.yml
+#   - _posts/archieve/*
 
   

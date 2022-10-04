@@ -1,0 +1,11 @@
+---
+layout: post
+title: Language translation of web-based content
+date: 2012-08-01 00:00:00 +0300
+description: Machine Translation (MT) software today provides adequate conversion of foreign languages to one's native tongue; however, dialects, slang, and character conversion errors result in partially successful translations. For an accurate translation, a native speaker is often required to correct the translation by using sentence structure and word use cues to capture the true meaning. MT character conversion from Cyrillic, Asian, and Arabic languages to western characters induce errors in the translated text which can change the meaning or result in characters being associated together that do not form words. The authors present a solution using open source MT and the International Organization for Standardization (ISO) character mapping. The solution provides proper character conversion to achieve greater translation accuracy for web-based content. # Add post description (optional)
+img: software.jpg # Add image post (optional)
+tags: [Machine Translation (MT), Cross-Language Information Retrieval (CLIR),Computer-Aided Translation (CAT),International Organization for Standardization (ISO)] # add tag
+---
+Machine Translation (MT) software today provides adequate conversion of foreign languages to one's native tongue; however, dialects, slang, and character conversion errors result in partially successful translations. For an accurate translation, a native speaker is often required to correct the translation by using sentence structure and word use cues to capture the true meaning. MT character conversion from Cyrillic, Asian, and Arabic languages to western characters induce errors in the translated text which can change the meaning or result in characters being associated together that do not form words. The authors present a solution using open source MT and the International Organization for Standardization (ISO) character mapping. The solution provides proper character conversion to achieve greater translation accuracy for web-based content.
+
+<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6531026&queryText%3DBrian+Bacher+.PLS.+K.C.+Jones+.PLS.+Bart+Kahler">IEEExplore Article</a>
