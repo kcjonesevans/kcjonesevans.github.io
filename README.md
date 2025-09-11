@@ -1,59 +1,69 @@
-[www.kcjonesevans.com](www.kcjonesevans.com)
-## Personal Website
+# React + TypeScript + Vite
 
-This is my personal website's repo. I have modified a jekyll theme to suit my needs. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Installation
+Currently, two official plugins are available:
 
-The following are instructions for installing and running this repo locally on a Mac using homebrew
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Brew install Ruby
+## Expanding the ESLint configuration
 
-Follow the homebrew instructions at [jekyllrb.com](https://jekyllrb.com/docs/installation/macos/)
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```bash
-brew install chruby ruby-install
-ruby-install ruby
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
 
-### Install the gems
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-From the root folder of this repo run the following:
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-```bash
-gem install
-
-# or if using bundle
-
-bundle install
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
-
-### Run a local server
-
-Run a local server at [http://127.0.0.1:4000/](http://127.0.0.1:4000/). This server kind of watches for changes but if you change the config file then you have to restart.
-
-```bash
-jekyll serve 
-# or if using bundle 
-bundle exec jekyll serve 
-```
-### Deploying to Github Pages
-
-Commit all the generated static files to `main`, github pages takes care of the rest.
-
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub.This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-To submit a pull request -
-
-1. Fork/clone the repository.
-2. Develop.
-3. Create a new branch from the main branch.
-4. Open a pull request on Github describing what was fixed or added.
-
-
-## License
-
-[MIT License](https://opensource.org/licenses/MIT).
