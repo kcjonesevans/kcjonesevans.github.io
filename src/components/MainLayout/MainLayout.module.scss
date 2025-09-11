@@ -1,0 +1,32 @@
+// filepath: src/components/MainLayout/MainLayout.module.scss
+@use '../../assets/scss/_variables.scss' as *;
+ .layout {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 900px) {
+  .main {
+    padding: 1rem;
+  }
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: color 0.2s;
+}

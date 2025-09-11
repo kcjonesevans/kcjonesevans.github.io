@@ -1,0 +1,78 @@
+// filepath: src/pages/Blog/Blog.module.scss
+.blog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.postList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.postItem {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.postTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #263959;
+}
+.postDate {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.postDesc {
+  margin-bottom: 1rem;
+}
+.postTags {
+  margin-bottom: 1rem;
+}
+.postTag {
+  display: inline-block;
+  background: #e3eafc;
+  color: #263959;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+}
+.postImg {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.readMore {
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: 500;
+}
+.readMore:hover {
+  text-decoration: underline;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.paginationBtn {
+  background: #263959;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.paginationBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

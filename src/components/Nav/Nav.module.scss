@@ -1,0 +1,53 @@
+@use '../../assets/scss/_variables.scss' as *;
+// filepath: src/components/Nav/Nav.module.scss
+.nav {
+  background: #263959;
+  padding: 1rem 0;
+}
+
+.navContent {
+  max-width: $max-width;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1200px) {
+  .navContent {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navContent {
+    padding: 0 1rem;
+  }
+}
+
+
+// Only style nav lists, not all ul globally
+.navContent ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+a.active {
+  color: #1da1f2;
+  text-decoration: underline;
+}
+a:hover {
+  color: #1da1f2;
+}

@@ -1,0 +1,48 @@
+// filepath: src/components/Sidebar/Sidebar.module.scss
+.sidebar {
+  background: #f7f9fc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+.about {
+  text-align: center;
+}
+.coverAuthorImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.authorName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.contact {
+  margin-top: 2rem;
+}
+.contact ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+.contact i {
+  font-size: 1.5rem;
+  color: #263959;
+  transition: color 0.2s;
+}
+.contact a:hover i {
+  color: #1da1f2;
+}
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}

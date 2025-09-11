@@ -1,0 +1,36 @@
+// Social links styles (moved from Sidebar.module.scss)
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+.socialLinks i {
+  font-size: 1.5rem;
+  color: #263959;
+  transition: color 0.2s;
+}
+.socialLinks a:hover i {
+  color: #1da1f2;
+}
+// filepath: src/pages/Home/Home.module.scss
+.homeLayout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.homeMain {
+  flex: 1;
+  min-width: 250px;
+}
+@media (max-width: 900px) {
+  .homeLayout {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .homeMain {
+    min-width: 0;
+  }
+}

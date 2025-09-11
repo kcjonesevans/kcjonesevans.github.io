@@ -1,59 +1,115 @@
-[www.kcjonesevans.com](www.kcjonesevans.com)
-## Personal Website
+# React + TypeScript + Vite
 
-This is my personal website's repo. I have modified a jekyll theme to suit my needs. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Installation
+Currently, two official plugins are available:
 
-The following are instructions for installing and running this repo locally on a Mac using homebrew
 
-### Brew install Ruby
+## Getting Started
 
-Follow the homebrew instructions at [jekyllrb.com](https://jekyllrb.com/docs/installation/macos/)
+To run the development server:
 
 ```bash
-brew install chruby ruby-install
-ruby-install ruby
+npm run dev
 ```
 
-### Install the gems
+This will start Vite and serve your React app at http://localhost:5173 (default).
 
-From the root folder of this repo run the following:
+To build for production:
 
 ```bash
-gem install
-
-# or if using bundle
-
-bundle install
+npm run build
 ```
 
-### Run a local server
-
-Run a local server at [http://127.0.0.1:4000/](http://127.0.0.1:4000/). This server kind of watches for changes but if you change the config file then you have to restart.
+To preview the production build:
 
 ```bash
-jekyll serve 
-# or if using bundle 
-bundle exec jekyll serve 
+npm run preview
 ```
-### Deploying to Github Pages
 
-Commit all the generated static files to `main`, github pages takes care of the rest.
+## Project Structure
 
+- React + TypeScript (Vite)
+- ESLint (Airbnb, React, TypeScript)
+- Prettier
+- Jest + @testing-library/react + MSW
+- Redux Toolkit + React Router
+- SCSS Modules
 
-## Contributing
+Source code is organized under `src/`:
 
-Bug reports and pull requests are welcome on GitHub.This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+```
+src/
+  app/
+  components/
+  pages/
+  features/
+  hooks/
+  services/
+  models/
+  constants/
+  assets/
+```
 
-To submit a pull request -
+See `.github/instructions/react.instructions.md` for full guidelines.
 
-1. Fork/clone the repository.
-2. Develop.
-3. Create a new branch from the main branch.
-4. Open a pull request on Github describing what was fixed or added.
+## Expanding the ESLint configuration
 
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## License
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-[MIT License](https://opensource.org/licenses/MIT).
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
+
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
