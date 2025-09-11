@@ -1,0 +1,24 @@
+// filepath: src/components/Head/Head.tsx
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
+export default function Head() {
+  return (
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>K.C. Jones Evans</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta name="description" content="Personal website of K.C. Jones Evans" />
+      <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png" />
+      <meta name="theme-color" content="#263959" />
+      <meta name="msapplication-navbutton-color" content="#263959" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="#263959" />
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="/assets/css/main.css" />
+    </Helmet>
+  );
+}
