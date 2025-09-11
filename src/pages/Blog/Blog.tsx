@@ -23,7 +23,7 @@ export default function Blog() {
               <h3 className={styles.postTitle}>{post.title}</h3>
               <p className={styles.postDate}><em>{post.date}</em></p>
               <p className={styles.postDesc}>{post.description}</p>
-              {post.img && <img src={`/src/assets/img/${post.img}`} alt={post.title} className={styles.postImg} />}
+              {post.img && <img src={`${post.img}`} alt={post.title} className={styles.postImg} />}
               <div className={styles.postTags}>
                 {post.tags.map(tag => (
                   <span key={tag} className={styles.postTag}>{tag}</span>

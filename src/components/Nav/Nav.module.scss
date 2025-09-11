@@ -29,7 +29,8 @@
 }
 
 
-ul {
+// Only style nav lists, not all ul globally
+.navContent ul {
   display: flex;
   gap: 2rem;
   list-style: none;
