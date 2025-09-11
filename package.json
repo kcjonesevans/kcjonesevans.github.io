@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "bulma": "^1.0.4",
+    "bulma-helpers": "^0.4.3",
+    "material-design-icons": "^3.0.1",
     "pdf-viewer-reactjs": "^2.2.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

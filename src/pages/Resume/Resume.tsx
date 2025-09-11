@@ -1,7 +1,10 @@
 // filepath: src/pages/Resume/Resume.tsx
 import PDFViewer from 'pdf-viewer-reactjs';
 import MainLayout from '../../components/MainLayout/MainLayout';
-
+// Import required CSS for pdf-viewer-reactjs
+import 'bulma/css/bulma.min.css';
+import 'bulma-helpers/css/bulma-helpers.min.css';
+import 'material-design-icons/iconfont/material-icons.css';
 
 export default function Resume() {
   return (
@@ -15,7 +18,6 @@ export default function Resume() {
           navbarOnTop
           hideRotation
           hideZoom
-          hideDownload
           scale={1.2}
         />
         <p style={{ marginTop: '1rem' }}>
