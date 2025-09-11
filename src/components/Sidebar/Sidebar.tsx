@@ -19,9 +19,7 @@ export default function Sidebar() {
       <footer>
         <section className={styles.contact}>
           <h3>Contact me</h3>
-          <ul>
-            <li><a href="https://twitter.com/kcjonesevans" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" /></a></li>
-            <li><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" /></a></li>
+          <ul className={styles.socialLinks}>
             <li><a href="http://github.com/kcjonesevans" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" /></a></li>
             <li><a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a></li>
             <li><a href="mailto:kcjonesevans@gmail.com"><i className="fa fa-envelope-o" /></a></li>
