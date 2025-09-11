@@ -1,5 +1,4 @@
 // filepath: src/pages/Contact/Contact.tsx
-import React from 'react';
 import MainLayout from '../../components/MainLayout/MainLayout';
 import styles from '../Home/Home.module.scss';
 

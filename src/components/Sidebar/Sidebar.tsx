@@ -1,5 +1,4 @@
 // filepath: src/components/Sidebar/Sidebar.tsx
-import React from 'react';
 import styles from './Sidebar.module.scss';
 
 export default function Sidebar() {

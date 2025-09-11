@@ -1,5 +1,5 @@
 // filepath: src/components/Analytics/Analytics.tsx
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export default function Analytics() {
   useEffect(() => {

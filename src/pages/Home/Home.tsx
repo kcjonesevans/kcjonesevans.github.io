@@ -1,5 +1,4 @@
 // filepath: src/pages/Home/Home.tsx
-import React from 'react';
 import MainLayout from '../../components/MainLayout/MainLayout';
 
 import Sidebar from '../../components/Sidebar/Sidebar';

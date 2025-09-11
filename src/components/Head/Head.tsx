@@ -1,5 +1,4 @@
 // filepath: src/components/Head/Head.tsx
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 export default function Head() {

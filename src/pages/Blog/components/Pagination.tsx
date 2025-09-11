@@ -1,5 +1,4 @@
 // filepath: src/pages/Blog/components/Pagination.tsx
-import React from 'react';
 import styles from '../Blog.module.scss';
 
 type Props = {

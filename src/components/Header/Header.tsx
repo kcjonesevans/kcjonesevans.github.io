@@ -1,5 +1,4 @@
 // filepath: src/components/Header/Header.tsx
-import React from 'react';
 import styles from './Header.module.scss';
 import catLogo from '../../assets/img/Sunny_small.jpg';
 

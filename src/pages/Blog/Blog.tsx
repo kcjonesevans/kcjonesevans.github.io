@@ -1,5 +1,4 @@
 // filepath: src/pages/Blog/Blog.tsx
-import React from 'react';
 import { useState } from 'react';
 import MainLayout from '../../components/MainLayout/MainLayout';
 import { posts } from './posts';
