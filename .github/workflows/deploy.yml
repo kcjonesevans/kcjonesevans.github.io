@@ -5,7 +5,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - features/kc/react  # Change to your main branch if needed
+      - main  # Change to your main branch if needed
 
 jobs:
   build-and-deploy:
