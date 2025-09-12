@@ -59,13 +59,13 @@ export default function Head({
     
     // Add favicon and apple touch icons
     const linkTags = [
-      { rel: 'shortcut icon', href: '/assets/images/favicon.ico', type: 'image/x-icon' },
-      { rel: 'apple-touch-icon', href: '/assets/img/favicon/apple-touch-icon.png' },
-      { rel: 'apple-touch-icon', sizes: '72x72', href: '/assets/img/favicon/apple-touch-icon-72x72.png' },
-      { rel: 'apple-touch-icon', sizes: '144x144', href: '/assets/img/favicon/apple-touch-icon-144x144.png' },
+      { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+      { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-touch-icon-72x72.png' },
+      { rel: 'apple-touch-icon', sizes: '144x144', href: '/apple-touch-icon-144x144.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap' },
-      { rel: 'stylesheet', href: '/assets/fonts/font-awesome/css/font-awesome.min.css' },
-      { rel: 'stylesheet', href: '/assets/css/main.css' }
+      { rel: 'stylesheet', href: '/font-awesome.min.css' },
+      { rel: 'stylesheet', href: '/main.css' }
     ];
     
     linkTags.forEach(linkInfo => {

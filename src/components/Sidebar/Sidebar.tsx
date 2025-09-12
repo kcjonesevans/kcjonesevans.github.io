@@ -1,5 +1,6 @@
 // filepath: src/components/Sidebar/Sidebar.tsx
 import styles from './Sidebar.module.scss';
+import headshot from '../../assets/img/headshot_square_small.png';
 
 export default function Sidebar() {
   return (
@@ -8,7 +9,7 @@ export default function Sidebar() {
         <div className={styles.about}>
           <div className={styles.coverAuthorImage}>
             <a href="/">
-              <img src="/src/assets/img/headshot_square_small.png" alt="K.C. Jones Evans" />
+              <img src={headshot} alt="K.C. Jones Evans" />
             </a>
           </div>
           <div className={styles.authorName}>K.C. Jones Evans</div>

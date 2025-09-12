@@ -286,6 +286,45 @@ export type Todo = {
 };
 ```
 
+## Asset handling guidelines
+
+### Images and Static Assets
+
+* **Component-referenced images**: Import directly in components:
+  ```tsx
+  // GOOD: Import images directly in components
+  import logo from '../../assets/img/logo.png';
+  
+  function Component() {
+    return <img src={logo} alt="Logo" />;
+  }
+  ```
+
+* **NEVER use direct src paths to /src directory**:
+  ```tsx
+  // BAD: This won't work in production builds
+  <img src="/src/assets/img/logo.png" alt="Logo" />
+  ```
+
+* **Static assets**: Place in `/public` directory:
+  * Files in `/public` are served at root URL path (`/`)
+  * Not processed by Vite (no hashing, optimization)
+  * Ideal for:
+    * Favicons
+    * robots.txt
+    * Static documents (PDFs)
+    * Large images that don't need optimization
+    * Assets referenced by `index.html`
+
+* **Asset organization**:
+  * Component-specific images: `/src/assets/img/`
+  * Global static assets: `/public/`
+  * Reference public assets with absolute paths from root: `src="/favicon.ico"`
+
+* **SVG handling options**:
+  * Import as component: `import { ReactComponent as Logo } from './logo.svg'`
+  * Import as URL: `import logoUrl from './logo.svg'`
+
 ## Code block formatting
 
 * **Use 4 backticks** for code blocks
