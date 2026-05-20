@@ -1,15 +1,26 @@
 // filepath: src/app/routes.tsx
 import { createHashRouter } from 'react-router-dom';
-import Home from '../pages/Home/Home';
-import About from '../pages/About/About';
-import Contact from '../pages/Contact/Contact';
-import Resume from '../pages/Resume/Resume';
-import Blog from '../pages/Blog/Blog';
+import SiteLayout from '../site/SiteLayout';
+import {
+  AboutScreen,
+  BlogScreen,
+  ContactScreen,
+  HomeScreen,
+  ResumeScreen,
+  WorkScreen
+} from '../site/screens';
 
 export const router = createHashRouter([
-  { path: '/', element: <Home /> },
-  { path: '/about', element: <About /> },
-  { path: '/contact', element: <Contact /> },
-  { path: '/resume', element: <Resume /> },
-  { path: '/blog', element: <Blog /> }
+  {
+    path: '/',
+    element: <SiteLayout />,
+    children: [
+      { index: true, element: <HomeScreen /> },
+      { path: 'about', element: <AboutScreen /> },
+      { path: 'work', element: <WorkScreen /> },
+      { path: 'blog', element: <BlogScreen /> },
+      { path: 'resume', element: <ResumeScreen /> },
+      { path: 'contact', element: <ContactScreen /> }
+    ]
+  }
 ]);

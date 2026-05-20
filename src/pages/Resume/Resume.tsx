@@ -21,7 +21,7 @@ export default function Resume() {
           scale={1.2}
         />
         <p style={{ marginTop: '1rem' }}>
-          <a href="/KC_Jones-Evans_September_2025.pdf" download>Download PDF</a>
+          <a href="/KC_Jones-Evans_CV_May_2026.docx" download>Download Resume</a>
         </p>
       </section>
     </MainLayout>

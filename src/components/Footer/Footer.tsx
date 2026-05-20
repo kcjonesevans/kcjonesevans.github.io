@@ -12,7 +12,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:kcjonesevans@gmail.com" aria-label="Email">
+            <a href="mailto:kcjonesevans@proton.me" aria-label="Email">
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
           </li>
