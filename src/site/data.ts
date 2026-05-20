@@ -105,54 +105,54 @@ export const POSTS: Post[] = [
 
 export const WORK: WorkProject[] = [
   {
+    id: 'databricks-sim',
+    title: 'Databricks simulation integration',
+    role: 'Senior Engineer',
+    period: 'Apr 2026 - present',
+    blurb:
+      'Integrated a Databricks connection for simulations into an energy client\'s existing simulation management tool using .NET, Python, and Azure DevOps - enabling direct comparison of job reports between legacy and new simulation approaches.',
+    stack: ['Databricks', '.NET', 'Python', 'Azure DevOps'],
+    tint: 'sage'
+  },
+  {
     id: 'pathlink-hub',
     title: 'Pathlink Hub',
     role: 'Architect & Technical Lead',
-    period: '2025 - present',
+    period: 'Jan 2026 - present',
     blurb:
       'Architected and led an ontology-driven chat, search, and community application built on Angular, .NET, Terraform, and Azure. Applied Domain-Driven Design EventStorming to define domains and bounded contexts, scoping AI-generated code for the application and its infrastructure.',
     stack: ['Angular', '.NET', 'Terraform', 'Azure', 'DDD', 'EventStorming'],
     tint: 'rose'
   },
   {
-    id: 'low-code-claims',
-    title: 'Low-code claims intake - First Notice of Loss',
-    role: 'Lead Designer + Engineer',
-    period: '2025',
-    blurb:
-      'Brought in new technologies while leading development of a low-code claims intake solution using agent-based orchestration and AI-assisted workflows. Delivered modular components for data capture, extraction, and classification, integrated with Azure services to streamline insurance operations.',
-    stack: ['Azure AI Foundry', 'AI Agents', 'Angular', 'TypeScript'],
-    tint: 'sage'
-  },
-  {
     id: 'energy-design-system',
     title: 'Enterprise design system - large energy company',
     role: 'Frontend Architect',
-    period: '2024 - 2025',
+    period: 'Sep 2025 - Dec 2025',
     blurb:
       'Led the upgrade of a large energy company\'s design system from Angular 14 to Angular 20 with Storybook documentation, as primary developer on a team of three. Authored reusable AI instruction sets that assisted the upgrade and can be reapplied to future Angular releases and to applications migrating onto the design system.',
     stack: ['Angular 20', 'Storybook 9', 'AI-Assisted Dev', 'A11y'],
     tint: 'linen'
   },
   {
+    id: 'low-code-claims',
+    title: 'Low-code claims intake - First Notice of Loss',
+    role: 'Lead Designer + Engineer',
+    period: 'Jul 2025 - Aug 2025',
+    blurb:
+      'Brought in new technologies while leading development of a low-code claims intake solution using agent-based orchestration and AI-assisted workflows. Delivered modular components for data capture, extraction, and classification, integrated with Azure services to streamline insurance operations.',
+    stack: ['Azure AI Foundry', 'AI Agents', 'Angular', 'TypeScript'],
+    tint: 'sage'
+  },
+  {
     id: 'azure-ai-search',
     title: 'Azure AI Search application',
     role: 'Lead Engineer / Frontend Architect',
-    period: '2024',
+    period: 'Sep 2021 - Mar 2025',
     blurb:
       'Led architectural decision-making - technical solutions selection and framework implementation - for an Azure AI Search application with over 4 million records.',
     stack: ['Angular', 'Azure AI Search', '.NET', 'Cloud modernization'],
     tint: 'rose'
-  },
-  {
-    id: 'databricks-sim',
-    title: 'Databricks simulation integration',
-    role: 'Senior Engineer',
-    period: '2025',
-    blurb:
-      'Integrated a Databricks connection for simulations into an energy client\'s existing simulation management tool using .NET, Python, and Azure DevOps - enabling direct comparison of job reports between legacy and new simulation approaches.',
-    stack: ['Databricks', '.NET', 'Python', 'Azure DevOps'],
-    tint: 'sage'
   },
   {
     id: 'cms-ai-classification',
@@ -170,7 +170,7 @@ export const NOW: NowItem[] = [
   {
     id: 'now-pathlink',
     role: 'Architect & Technical Lead',
-    period: '2025 - present',
+    period: 'Jan 2026 - present',
     title: 'An ontology-driven chat, search & community app',
     problem:
       'A platform that has to reason about a real domain - with AI-generated code in the mix - without turning into a pile of half-understood abstractions.',
@@ -180,21 +180,9 @@ export const NOW: NowItem[] = [
     tint: 'rose'
   },
   {
-    id: 'now-ai-agents',
-    role: 'Lead Designer + Engineer',
-    period: '2025',
-    title: 'Low-code claims intake with agent orchestration',
-    problem:
-      'When an LLM is part of the team, the UI has to make it obvious where the agent is helping, where it is deciding, and where the human is still on the hook.',
-    solution:
-      'Modular components for data capture, extraction, and classification, glued together with agent-based orchestration and AI-assisted workflows on top of Azure.',
-    stack: ['Azure AI Foundry', 'AI Agents', 'Angular'],
-    tint: 'sage'
-  },
-  {
     id: 'now-design-system',
     role: 'Frontend Architect',
-    period: '2024 - 2025',
+    period: 'Sep 2025 - Dec 2025',
     title: 'Modernizing an enterprise design system',
     problem:
       'A long-lived Angular 14 design system used by dozens of teams, with accessibility gaps and no clear path to a modern Angular release.',
@@ -202,6 +190,18 @@ export const NOW: NowItem[] = [
       'Upgraded to Angular 20 with Storybook documentation, working accessibility passes alongside the client\'s UX team - and authored reusable AI instruction sets so the next Angular jump is much shorter.',
     stack: ['Angular 20', 'Storybook 9', 'AI-Assisted Dev', 'A11y'],
     tint: 'linen'
+  },
+  {
+    id: 'now-ai-agents',
+    role: 'Lead Designer + Engineer',
+    period: 'Jul 2025 - Aug 2025',
+    title: 'Low-code claims intake with agent orchestration',
+    problem:
+      'When an LLM is part of the team, the UI has to make it obvious where the agent is helping, where it is deciding, and where the human is still on the hook.',
+    solution:
+      'Modular components for data capture, extraction, and classification, glued together with agent-based orchestration and AI-assisted workflows on top of Azure.',
+    stack: ['Azure AI Foundry', 'AI Agents', 'Angular'],
+    tint: 'sage'
   }
 ];
 
@@ -213,7 +213,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     location: 'Full-time',
     bullets: [
       'Led multiple teams in UI/UX development and grew to lead pre-sales teams creating architectural designs centered around AI/ML.',
-      'Architected and led <strong>Pathlink Hub</strong>, an ontology-driven chat, search, and community application built on Angular, .NET, Terraform, and Azure. Applied Domain-Driven Design EventStorming to define domains and bounded contexts, scoping AI-generated code for the application and its infrastructure.',
+      'Architected and led Pathlink Hub, an ontology-driven chat, search, and community application built on Angular, .NET, Terraform, and Azure. Applied Domain-Driven Design EventStorming to define domains and bounded contexts, scoping AI-generated code for the application and its infrastructure.',
       'Integrated Databricks connection for simulations into an energy client\'s existing simulation management tool using .NET, Python, and Azure DevOps, enabling direct comparison of job reports between legacy and new simulation approaches.',
       'Led the upgrade of a large energy company\'s design system from Angular 14 to Angular 20 with Storybook documentation, as primary developer on a team of three. Authored reusable AI instruction sets that assisted the upgrade and can be reapplied to future Angular releases and to applications migrating onto the design system.'
     ]

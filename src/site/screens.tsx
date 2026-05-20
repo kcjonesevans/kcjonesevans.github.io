@@ -120,14 +120,20 @@ export function AboutScreen() {
         <Eyebrow variant="sage">about</Eyebrow>
         <h1>I work on the web, the cloud, and the data underneath.</h1>
         <p>
-          I am a lead senior software engineer at Applied Information Sciences, based in the United States. Over fifteen years ago I started
+          I'm a lead senior software engineer at Applied Information Sciences, based in the United States. Over fifteen years ago I started
           writing software for a small geospatial-and-open-source-intel team at SAIC; since then I have led UI engineering across enterprise
           modernizations, energy-sector design systems, and lately AI-first product work on Azure AI Foundry with Domain-Driven Design at the seams.
         </p>
         <p>
-          I am best when there is a real person on the other side of the screen and a real engineering team behind it. I like the seams: what
+          I'm best when there is a real person on the other side of the screen and a real engineering team behind it. I like the seams: what
           the data has to look like, what the API has to promise, what the interface ends up feeling like when you use it on a slow Wednesday.
           I write at that intersection.
+        </p>
+        <p>
+          I taught with <strong>Girl Develop It Dayton</strong> from 2015 to 2018, which is where I found the confidence to speak my mind - and
+          learned that people actually wanted to know what I thought. When I'm not at a keyboard you will find me with my daughter Rowyn or
+          petting a cat named <strong>Sunny</strong>, trying to grow something in a chunk of garden I am slowly losing to mint, or losing myself
+          in a longer book than I have time for.
         </p>
 
         <h2 className="about__sub-h">A short timeline</h2>
