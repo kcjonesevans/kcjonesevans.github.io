@@ -90,7 +90,7 @@ function About({ onNav }) {
         <div className="sidebar__socials about__socials">
           <IconLink href="https://github.com/kcjonesevans" name="github" label="GitHub" size={18} />
           <IconLink href="https://www.linkedin.com/" name="linkedin" label="LinkedIn" size={18} />
-          <IconLink href="mailto:kcjonesevans@gmail.com" name="mail" label="Email" size={18} />
+          <IconLink href="mailto:kcjonesevans@proton.me" name="mail" label="Email" size={18} />
         </div>
       </div>
       <div className="about__body">
@@ -355,11 +355,11 @@ function Contact({ onNav }) {
           LinkedIn is fine too.
         </p>
         <div className="contact__channels">
-          <a className="contact__channel" href="mailto:kcjonesevans@gmail.com">
+          <a className="contact__channel" href="mailto:kcjonesevans@proton.me">
             <div className="icon-link"><Icon name="mail" size={18} /></div>
             <div>
               <div className="contact__channel-label">email</div>
-              <div className="contact__channel-value">kcjonesevans@gmail.com</div>
+              <div className="contact__channel-value">kcjonesevans@proton.me</div>
             </div>
           </a>
           <a className="contact__channel" href="https://github.com/kcjonesevans" target="_blank" rel="noopener noreferrer">

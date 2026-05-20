@@ -22,7 +22,7 @@ export default function Sidebar() {
           <ul className={styles.socialLinks}>
             <li><a href="http://github.com/kcjonesevans" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" /></a></li>
             <li><a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a></li>
-            <li><a href="mailto:kcjonesevans@gmail.com"><i className="fa fa-envelope-o" /></a></li>
+            <li><a href="mailto:kcjonesevans@proton.me"><i className="fa fa-envelope-o" /></a></li>
           </ul>
         </section>
         <div className={styles.copyright}>

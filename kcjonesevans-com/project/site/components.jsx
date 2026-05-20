@@ -111,7 +111,7 @@ function Header({ onNav }) {
           </div>
         </a>
         <div className="site-header__spacer"></div>
-        <a className="site-header__rss" href="mailto:kcjonesevans@gmail.com" aria-label="Email K.C.">
+        <a className="site-header__rss" href="mailto:kcjonesevans@proton.me" aria-label="Email K.C.">
           <Icon name="mail" size={16} /> say hello
         </a>
       </div>
@@ -161,7 +161,7 @@ function Sidebar({ onNav }) {
       <div className="sidebar__socials">
         <IconLink href="https://github.com/kcjonesevans" name="github" label="GitHub" size={18} />
         <IconLink href="https://www.linkedin.com/" name="linkedin" label="LinkedIn" size={18} />
-        <IconLink href="mailto:kcjonesevans@gmail.com" name="mail" label="Email" size={18} />
+        <IconLink href="mailto:kcjonesevans@proton.me" name="mail" label="Email" size={18} />
       </div>
       <a
         className="sidebar__resume-link"
@@ -195,7 +195,7 @@ function Footer({ onNav }) {
           <div className="site-footer__socials">
             <IconLink href="https://github.com/kcjonesevans" name="github" label="GitHub" />
             <IconLink href="https://www.linkedin.com/" name="linkedin" label="LinkedIn" />
-            <IconLink href="mailto:kcjonesevans@gmail.com" name="mail" label="Email" />
+            <IconLink href="mailto:kcjonesevans@proton.me" name="mail" label="Email" />
           </div>
           <small className="site-footer__copy">© {new Date().getFullYear()} K.C. Jones Evans</small>
         </div>
