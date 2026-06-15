@@ -62,6 +62,16 @@ export const POSTS: Post[] = [
     content: ''
   },
   {
+    title: 'From Sticky Notes to Shippable Code',
+    date: '2024-06-01',
+    description:
+      'How Domain-Driven Design workshops — from the first sticky note to the last pull request — can structure a clear path from collaborative domain discovery to working, deployed software.',
+    img: '/assets/blog-workflow.jpg',
+    tags: ['EventStorming', 'DDD', 'Software Delivery', 'Agile'],
+    url: 'https://www.ais.com/from-sticky-notes-to-shippable-code/',
+    content: ''
+  },
+  {
     title: 'Build and Deploy Angular Applications Using Azure DevOps Pipelines',
     date: '2022-05-24',
     description:
