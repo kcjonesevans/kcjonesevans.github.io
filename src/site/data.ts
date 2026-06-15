@@ -39,34 +39,24 @@ export type ExperienceItem = {
 };
 
 export const POSTS: Post[] = [
-  {
-    title: 'Modernizing an enterprise design system for a large energy company',
-    date: '2026-02-14',
-    description:
-      'Notes on leading an Angular 14 -> Angular 20 upgrade of a long-lived design system, Storybook 9 documentation, and the reusable AI instruction sets that did most of the migration work alongside us.',
-    img: '/assets/blog-mac.jpg',
-    tags: ['Angular 20', 'Design Systems', 'Storybook', 'AI-Assisted Dev'],
-    url: '#/blog/eud-system',
-    soon: true,
-    content: ''
-  },
-  {
-    title: 'Domain-Driven Design with AI: EventStorming a chat-and-search platform',
-    date: '2025-11-09',
-    description:
-      'What I learned scoping AI-generated code with Domain-Driven Design and EventStorming on Pathlink Hub - an ontology-driven chat, search, and community app on Angular, .NET, Terraform, and Azure.',
-    img: '/assets/blog-software.jpg',
-    tags: ['DDD', 'EventStorming', 'AI Agents', 'Azure'],
-    url: '#/blog/ddd-ai-pathlink',
-    soon: true,
-    content: ''
-  },
+  // {
+  //   title: 'Modernizing an enterprise design system for a large energy company',
+  //   date: '2026-02-14',
+  //   description:
+  //     'Notes on leading an Angular 14 -> Angular 20 upgrade of a long-lived design system, Storybook 9 documentation, and the reusable AI instruction sets that did most of the migration work alongside us.',
+  //   img: '',
+  //   tags: ['Angular 20', 'Design Systems', 'Storybook', 'AI-Assisted Dev'],
+  //   url: '#/blog/eud-system',
+  //   soon: true,
+  //   content: ''
+  // },
+ 
   {
     title: 'From Sticky Notes to Shippable Code',
-    date: '2024-06-01',
+    date: '2026-06-01',
     description:
       'How Domain-Driven Design workshops — from the first sticky note to the last pull request — can structure a clear path from collaborative domain discovery to working, deployed software.',
-    img: '/assets/blog-workflow.jpg',
+    img: '/assets/img/sticky_notes_to_shippable_code.png',
     tags: ['EventStorming', 'DDD', 'Software Delivery', 'Agile'],
     url: 'https://www.ais.com/from-sticky-notes-to-shippable-code/',
     content: ''
@@ -76,7 +66,7 @@ export const POSTS: Post[] = [
     date: '2022-05-24',
     description:
       'Automating the build and deployment of an Angular application in Azure DevOps is as easy as any other code hosting service. A walkthrough: caching, App Service deploys, and pushing containers to ACR.',
-    img: 'angular-brand',
+    img: '/assets/img/angular.svg',
     tags: ['Angular', 'Azure', 'DevOps', 'Pipelines'],
     url: 'https://www.ais.com/build-and-deploy-angular-applications-using-azure-devops-pipelines/',
     content: ''
