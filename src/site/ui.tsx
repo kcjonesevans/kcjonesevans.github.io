@@ -203,7 +203,16 @@ function PostThumb({ img }: { img: string }) {
 }
 
 export function formatDate(iso: string) {
-  const date = new Date(iso);
+  const dateOnlyMatch = iso.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  let date: Date;
+
+  if (dateOnlyMatch) {
+    const [, year, month, day] = dateOnlyMatch;
+    date = new Date(Number(year), Number(month) - 1, Number(day));
+  } else {
+    date = new Date(iso);
+  }
+
   if (Number.isNaN(date.getTime())) return iso;
   return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toLowerCase();
 }
